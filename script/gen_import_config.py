@@ -16,8 +16,8 @@ hdfs_nn_host = "cdh01"
 hdfs_nn_port = "8020"
 
 #生成配置文件的目标路径，可根据实际情况作出修改
-output_path = "/opt/module/datax/job/import"
-
+# output_path = "/opt/module/datax/job/import"
+output_path = "/root/E-commerce-BigData-BusinessDataCollector/conf"
 
 def get_connection():
     return MySQLdb.connect(host=mysql_host, port=int(mysql_port), user=mysql_user, passwd=mysql_passwd)
