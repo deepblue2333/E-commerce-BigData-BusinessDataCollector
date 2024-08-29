@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MAXWELL_HOME=/opt/module/maxwell
+MAXWELL_HOME=/opt/module/maxwell_stu
 
 status_maxwell(){
     result=$(ps -ef | grep maxwell | grep -v grep | wc -l)
